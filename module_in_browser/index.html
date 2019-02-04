@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="module">
+		import {sum, del as devide} from './calculate.mjs';
+		import output from './console-interface.mjs';
+
+		function main () {
+			var a = 2;
+			var b = 3;
+
+			var result = sum(a, b);
+			var res1 = devide (6, 3);
+
+			output(result);
+			output(res1);
+
+		}
+
+		main()
+	</script>
+</body>
+</html>
